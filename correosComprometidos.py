@@ -15,7 +15,7 @@ def pwned():
         f = open("usuarios.txt")
         s = open("cuentasFiltradas.txt",'a')
         for linea in f:
-            texto = "@coopjep.fin.ec"
+            texto = "@dominio.com"
             correo = linea.rstrip('\n') + texto
             print(correo)
             consumirWSGet(correo,s)
@@ -27,7 +27,7 @@ def firefox(type):
         f = open("usuarios.txt")
         s = open("cuentasFiltradas.txt",'a')
         for linea in f:
-            texto = "@coopjep.fin.ec"
+            texto = "@dominio.com"
             correo = linea.rstrip('\n') + texto
             print(correo)
             consumirWSPost("hX1df9vx-nCrticG9-fBttEb1-WEBkiPGaew", encrypt(correo,type),correo,s) #aquì va el csrf
