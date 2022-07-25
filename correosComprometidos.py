@@ -1,4 +1,4 @@
-##Autor bl4c4lv##
+##Autor bl4ck4lv##
 ##Fecha: 01/05/2021##
 #Script para obtener los correos comprometidos de la cooperativa#
 #Para correr el exploit, debemos obtener el csrf y cookie de firefox monitor#
